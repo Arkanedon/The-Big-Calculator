@@ -1,0 +1,102 @@
+
+  body {
+
+    background-size: cover;
+    height: 100vh; /* Hauteur de l'arrière-plan sur toute la hauteur de la fenêtre */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-family: 'Verdana', sans-serif;
+    font-style: italic; /* Met le texte en italique */
+    text-align: center;
+
+  }
+
+.content {
+
+    position: relative;
+    top: -5px;
+    text-align: center;
+    
+
+}
+
+#display {
+  width: 13em;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+  width: 9em;
+  padding: 0px;
+  font-size: 28px;
+
+}
+
+button {
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f0f0f0;
+}
+
+#inputField {
+
+  width: 9em;
+  margin-bottom: -66px;
+  padding: 0px;
+  font-size: 28px;
+  margin-right: -177px;
+  border-radius: 97px;
+  text-align: center;
+
+}
+
+.break {
+
+height: 0;
+flex-basis: 100%;
+
+}
+
+
+.gradient-mask {
+  -webkit-mask-image: linear-gradient(#fdbecb, transparent 150%);
+  color: #fdbecb;
+  width: 11em;
+  padding: 84px;
+  font-size: 61px;
+  margin-top: -1363px; /* Ajustez la marge supérieure pour remonter le gradient-mask */
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #febfcb;
+  height: 264px;
+  width: 15%;
+  margin-top: 20px; /* Ajustez la marge supérieure pour remonter le conteneur */
+  border-radius: 5px;
+}
+
+#resultDisplay {
+
+  width: 10em;
+  padding: 174px;
+  font-size: 35px;
+  margin-top: -35px;
+
+}
